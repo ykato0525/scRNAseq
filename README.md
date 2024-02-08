@@ -66,3 +66,12 @@ sc.pp.normalize_total(adata, target_sum=1e4)
 sc.pp.log1p(adata)
 ```
 
+
+# anndataの構造について
+```
+adata.X # 遺伝子発現の疎行列
+adata.obs # 細胞のメタデータ
+```
+
+## 細胞を取り出してプロットしたいとき
+
