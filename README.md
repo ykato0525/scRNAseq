@@ -11,3 +11,7 @@ conda install -c conda-forge scanpy python-igraph leidenalg
 ```
 
 
+## コードの使いかた
+```
+python3 cell_type_gene_plot.py <<ファイルのパス>> <<遺伝子名>>
+```
